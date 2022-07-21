@@ -8,9 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TestingEclipse {
+public class TestingEclipseTest {
 public static void main(String[] args) {
-	// set up the browser
+/*	// set up the browser
 	WebDriverManager.chromedriver().setup();
 	// instantiate the browser 
 	WebDriver driver = new ChromeDriver();
@@ -21,7 +21,8 @@ public static void main(String[] args) {
 	// finding the password textfield and pass the input
 	driver.findElement(By.name("user_password")).sendKeys("admin");
 	// finding the sign in button and clicking on it
-	driver.findElement(By.id("submitButton")).click();
+	driver.findElement(By.id("submitButton")).click();*/
+	System.out.println("new project added and executed");
 	
 }
 }
